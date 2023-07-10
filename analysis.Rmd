@@ -24,7 +24,7 @@ You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
 library(ggplot2)
-theme_set(theme_dark())
+theme_set(theme_light())
 ggplot(cars, aes(x=speed,y=dist,color=speed,size=dist)) + geom_point()
 ```
 
